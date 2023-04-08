@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/349d38fe07.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Weather app</title>
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<div class="weather-box">
+					<div class="location">
+						<button class="location-btn">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+						<input type="Location" class="city" placeholder="Location" />
+					</div>
+					<div class="img-box">
+						<div class="weather-img">
+							<img src="img/cloud/12.png" alt="weather" id="image-id" />
+						</div>
+					</div>
+					<div class="info">
+						<div class="temp-box">
+							<h1 class="temperature">21</h1>
+							<p>°</p>
+						</div>
+						<p class="weather-description">Thunderstorm</p>
+						<div class="date">
+							<p class="date-day">Monday, &nbsp;</p>
+							<p class="date-month">17 May</p>
+						</div>
+
+						<div class="line"></div>
+					</div>
+					<div class="wind-humidity">
+						<div class="help">
+							<i class="fa-solid fa-wind"></i>
+							<p class="unit wind">13 m/s</p>
+							<p class="what">Wind</p>
+						</div>
+						<div class="help">
+							<i class="fa-solid fa-droplet"></i>
+							<p class="unit humidity">24%</p>
+							<p class="what">Humidity</p>
+						</div>
+						<div class="help">
+							<i class="fa-solid fa-arrows-down-to-line"></i>
+							<p class="unit pressure">87%</p>
+							<p class="what">Pressure</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
