@@ -20,48 +20,73 @@
 	</head>
 	<body>
 		<main>
-			<div class="container">
-				<div class="weather-box">
-					<div class="location">
-						<button class="location-btn">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</button>
-						<input type="Location" class="city" placeholder="Location" />
-					</div>
-					<div class="img-box">
-						<div class="weather-img">
-							<img src="img/cloud/12.png" alt="weather" id="image-id" />
+			<div class="contours">
+				<div class="container">
+					<div class="weather-box">
+						<div class="location">
+							<button class="location-btn">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+							<input type="Location" class="city" placeholder="Location" />
 						</div>
-					</div>
-					<div class="info">
-						<div class="temp-box">
-							<h1 class="temperature">21</h1>
-							<p>°</p>
+						<div class="img-box">
+							<div class="weather-img">
+								<img src="img/cloud/12.png" alt="weather" id="image-id" />
+							</div>
 						</div>
-						<p class="weather-description">Thunderstorm</p>
-						<div class="date">
-							<p class="date-day">Monday, &nbsp;</p>
-							<p class="date-month">17 May</p>
-						</div>
+						<div class="info">
+							<div class="temp-box">
+								<h1 class="temperature">21</h1>
+								<p>°</p>
+							</div>
+							<p class="weather-description">Thunderstorm</p>
+							<div class="date">
+								<p class="date-day">Monday, &nbsp;</p>
+								<p class="date-month">17 May</p>
+							</div>
 
-						<div class="line"></div>
+							<div class="line"></div>
+						</div>
+						<div class="description-box">
+							<div class="details">
+								<i class="fa-solid fa-wind"></i>
+								<p class="unit wind">13 m/s</p>
+								<p class="what">Wind</p>
+							</div>
+							<div class="details">
+								<i class="fa-solid fa-droplet"></i>
+								<p class="unit humidity">24%</p>
+								<p class="what">Humidity</p>
+							</div>
+							<div class="details">
+								<i class="fa-solid fa-arrows-down-to-line"></i>
+								<p class="unit pressure">87%</p>
+								<p class="what">Pressure</p>
+							</div>
+						</div>
 					</div>
-					<div class="wind-humidity">
-						<div class="help">
-							<i class="fa-solid fa-wind"></i>
-							<p class="unit wind">13 m/s</p>
-							<p class="what">Wind</p>
-						</div>
-						<div class="help">
-							<i class="fa-solid fa-droplet"></i>
-							<p class="unit humidity">24%</p>
-							<p class="what">Humidity</p>
-						</div>
-						<div class="help">
-							<i class="fa-solid fa-arrows-down-to-line"></i>
-							<p class="unit pressure">87%</p>
-							<p class="what">Pressure</p>
-						</div>
+				</div>
+				<p class="today">Today</p>
+				<div class="today-box">
+					<div class="test">
+						<p class="test-temp">23°</p>
+						<i class="fa-solid fa-cloud"></i>
+						<p class="time">10:00</p>
+					</div>
+					<div class="test active-hour">
+						<p class="test-temp">23°</p>
+						<i class="fa-solid fa-bolt"></i>
+						<p class="time">11:00</p>
+					</div>
+					<div class="test">
+						<p class="test-temp">23°</p>
+						<i class="fa-solid fa-snowflake"></i>
+						<p class="time">12:00</p>
+					</div>
+					<div class="test">
+						<p class="test-temp">23°</p>
+						<i class="fa-solid fa-cloud-bolt"></i>
+						<p class="time">13:00</p>
 					</div>
 				</div>
 			</div>

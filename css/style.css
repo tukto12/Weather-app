@@ -35,14 +35,26 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	height: 100vh;
+}
+
+.contours {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 37rem;
+	height: 69rem;
+	border-radius: 4rem;
+	background-color: #000813;
 }
 
 .container {
 	background-image: linear-gradient(to bottom, #00c6fb 0%, #005bea 100%);
 	width: 35rem;
-	height: 60rem;
-	border-radius: 20px;
+	height: 56rem;
+	border-radius: 4rem;
 }
 
 .weather-box {
@@ -151,13 +163,13 @@ main {
 	background-color: #ffffff6b;
 }
 
-.wind-humidity {
+.description-box {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
-.help {
+.details {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -183,4 +195,50 @@ main {
 
 .error {
 	color: tomato;
+}
+
+/* ================================= */
+
+.today {
+	width: 80%;
+	margin: 1rem 0;
+	font-size: 1.7rem;
+	color: white;
+}
+
+.today-box {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 35rem;
+}
+
+.test {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	/* padding: 0.5rem 0.5rem; */
+	width: 5.5rem;
+	height: 7rem;
+	border: 2px solid #142232;
+	border-radius: 2rem;
+	color: #ffffff;
+	text-align: center;
+}
+
+.test-temp {
+	font-size: 1.5rem;
+}
+
+.test i {
+	font-size: 1.5rem;
+}
+
+.time {
+	color: #ffffff6b;
+}
+
+.active-hour {
+	background-color: #108afe;
 }
