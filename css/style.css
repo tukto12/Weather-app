@@ -225,6 +225,11 @@ main {
 	border-radius: 2rem;
 	color: #ffffff;
 	text-align: center;
+	transition: background-color 0.3s;
+}
+
+.test:hover {
+	background-color: #108afe;
 }
 
 .test-temp {
@@ -239,6 +244,12 @@ main {
 	color: #ffffff6b;
 }
 
-.active-hour {
-	background-color: #108afe;
+.test-img {
+	width: 2rem;
+	height: 2rem;
+}
+
+.test-img img {
+	width: 100%;
+	height: 100%;
 }
