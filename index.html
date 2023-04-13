@@ -20,85 +20,104 @@
 	</head>
 	<body>
 		<main>
-			<div class="contours">
-				<div class="container">
-					<div class="weather-box">
-						<div class="location">
-							<button class="location-btn">
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</button>
-							<input type="Location" class="city" placeholder="Location" />
-						</div>
-						<div class="img-box">
-							<div class="weather-img">
-								<img src="img/cloud/12.png" alt="weather" id="image-id" />
+			<section class="current-weather">
+				<div class="contours">
+					<div class="container">
+						<div class="weather-box">
+							<div class="location">
+								<button class="location-btn">
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</button>
+								<input type="Location" class="city" placeholder="Location" />
 							</div>
-						</div>
-						<div class="info">
-							<div class="temp-box">
-								<h1 class="temperature">--</h1>
-								<p>°</p>
+							<div class="img-box">
+								<div class="weather-img">
+									<img src="img/cloud/12.png" alt="weather" id="image-id" />
+								</div>
 							</div>
-							<p class="weather-description"></p>
-							<div class="date">
-								<p class="date-day"></p>
-								<p class="date-month"></p>
-							</div>
+							<div class="info">
+								<div class="temp-box">
+									<h1 class="temperature">--</h1>
+									<p>°</p>
+								</div>
+								<p class="weather-description"></p>
+								<div class="date">
+									<p class="date-day"></p>
+									<p class="date-month"></p>
+								</div>
 
-							<div class="line"></div>
+								<div class="line"></div>
+							</div>
+							<div class="description-box">
+								<div class="details">
+									<i class="fa-solid fa-wind"></i>
+									<p class="unit wind">--</p>
+									<p class="what">Wind</p>
+								</div>
+								<div class="details">
+									<i class="fa-solid fa-droplet"></i>
+									<p class="unit humidity">--</p>
+									<p class="what">Humidity</p>
+								</div>
+								<div class="details">
+									<i class="fa-solid fa-arrows-down-to-line"></i>
+									<p class="unit pressure">--</p>
+									<p class="what">Pressure</p>
+								</div>
+							</div>
 						</div>
-						<div class="description-box">
-							<div class="details">
-								<i class="fa-solid fa-wind"></i>
-								<p class="unit wind">--</p>
-								<p class="what">Wind</p>
+					</div>
+					<div class="more-content">
+						<p class="today">Today</p>
+						<button class="next-days">Next 7 days ></button>
+					</div>
+					<div class="today-box">
+						<div class="upcoming-weather">
+							<p class="upcoming-temp temp-one">--</p>
+							<div class="upcoming-img">
+								<img src="img/cloud/12.png" alt="weather" id="image-id-one" />
 							</div>
-							<div class="details">
-								<i class="fa-solid fa-droplet"></i>
-								<p class="unit humidity">--</p>
-								<p class="what">Humidity</p>
+							<!-- <img src="img/cloud/12.png" alt="weather" id="image-id" /> -->
+							<p class="time time-one"></p>
+						</div>
+						<div class="upcoming-weather">
+							<p class="upcoming-temp temp-two">--</p>
+							<div class="upcoming-img">
+								<img src="img/app/snow.png" alt="weather" id="image-id-two" />
 							</div>
-							<div class="details">
-								<i class="fa-solid fa-arrows-down-to-line"></i>
-								<p class="unit pressure">--</p>
-								<p class="what">Pressure</p>
+							<p class="time time-two"></p>
+						</div>
+						<div class="upcoming-weather">
+							<p class="upcoming-temp temp-three">--</p>
+							<div class="upcoming-img">
+								<img
+									src="img/app/clouds.png"
+									alt="weather"
+									id="image-id-three"
+								/>
 							</div>
+							<p class="time time-three"></p>
+						</div>
+						<div class="upcoming-weather">
+							<p class="upcoming-temp temp-four">--</p>
+							<div class="upcoming-img">
+								<img
+									src="img/app/drizzle.png"
+									alt="weather"
+									id="image-id-four"
+								/>
+							</div>
+							<p class="time time-four"></p>
 						</div>
 					</div>
 				</div>
-				<p class="today">Today</p>
-				<div class="today-box">
-					<div class="test">
-						<p class="test-temp temp-one">--</p>
-						<div class="test-img">
-							<img src="img/cloud/12.png" alt="weather" id="image-id-one" />
-						</div>
-						<!-- <img src="img/cloud/12.png" alt="weather" id="image-id" /> -->
-						<p class="time time-one"></p>
-					</div>
-					<div class="test">
-						<p class="test-temp temp-two">--</p>
-						<div class="test-img">
-							<img src="img/app/snow.png" alt="weather" id="image-id-two" />
-						</div>
-						<p class="time time-two"></p>
-					</div>
-					<div class="test">
-						<p class="test-temp temp-three">--</p>
-						<div class="test-img">
-							<img src="img/app/clouds.png" alt="weather" id="image-id-three" />
-						</div>
-						<p class="time time-three"></p>
-					</div>
-					<div class="test">
-						<p class="test-temp temp-four">--</p>
-						<div class="test-img">
-							<img src="img/app/drizzle.png" alt="weather" id="image-id-four" />
-						</div>
-						<p class="time time-four"></p>
-					</div>
+			</section>
+			<section class="forecast non-active">
+				<div class="contours">
+					<div class="tomorrow-container"></div>
+					<div class="week-container"></div>
 				</div>
-			</div>
+			</section>
 		</main>
 
 		<script src="js/main.js"></script>

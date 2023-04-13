@@ -199,11 +199,29 @@ main {
 
 /* ================================= */
 
+.more-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .today {
-	width: 80%;
+	width: 19rem;
 	margin: 1rem 0;
 	font-size: 1.7rem;
-	color: white;
+	color: #ffffff;
+}
+
+.next-days {
+	color: #ffffff;
+	font-size: 1.7rem;
+	cursor: pointer;
+	border: none;
+	background-color: inherit;
+}
+
+.next-days:hover {
+	color: #108afe;
 }
 
 .today-box {
@@ -213,7 +231,7 @@ main {
 	width: 35rem;
 }
 
-.test {
+.upcoming-weather {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -228,15 +246,15 @@ main {
 	transition: background-color 0.3s;
 }
 
-.test:hover {
+.upcoming-weather:hover {
 	background-color: #108afe;
 }
 
-.test-temp {
+.upcoming-temp {
 	font-size: 1.5rem;
 }
 
-.test i {
+.upcoming i {
 	font-size: 1.5rem;
 }
 
@@ -244,12 +262,30 @@ main {
 	color: #ffffff6b;
 }
 
-.test-img {
+.upcoming-img {
 	width: 2rem;
 	height: 2rem;
 }
 
-.test-img img {
+.upcoming-img img {
+	width: 100%;
+	height: 100%;
+}
+
+/* activation class */
+/* ================= */
+.non-active {
+	display: none;
+}
+/* ================= */
+
+/* 7 days forecast */
+
+.tommorow-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: red solid 2px;
 	width: 100%;
 	height: 100%;
 }

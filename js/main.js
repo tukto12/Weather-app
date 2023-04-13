@@ -105,6 +105,7 @@ async function checkWeather(city) {
 				'img/app/' + data.weather[0].main + '.png';
 		}
 	} catch (err) {
+		console.log(err);
 		weatherDescription.classList.add('error');
 		weatherDescription.innerHTML = 'Error';
 	}
