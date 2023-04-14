@@ -20,10 +20,15 @@ const temperature = document.querySelector('.temperature');
 const dateDay = document.querySelector('.date-day');
 const dateMonth = document.querySelector('.date-month');
 
+// const mainScreen = document.querySelector('.current');
+// const secondScreen = document.querySelector('.forecast');
+
 const todayArray = ['one', 'two', 'three', 'four'];
 // ===========================================================
 
 const btn = document.querySelector('.location-btn');
+// const btnNextDays = document.querySelector('.next-days');
+// const btnReturnMain = document.querySelector('.return-to-main');
 
 // ===========================================================
 // arrays to get the name of month, day and to get the proper image
@@ -137,3 +142,14 @@ btn.addEventListener('click', () => {
 	checkWeather(city.value);
 	checkWeatherHourly(city.value);
 });
+
+// btnNextDays.addEventListener('click', () => {
+// 	mainScreen.classList.add('non-active');
+// 	secondScreen.classList.remove('non-active');
+// });
+
+// btnReturnMain.addEventListener('click', () => {
+// 	checkWeather(city.value);
+// 	mainScreen.classList.remove('non-active');
+// 	secondScreen.classList.add('non-active');
+// });

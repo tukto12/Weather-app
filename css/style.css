@@ -157,10 +157,13 @@ main {
 }
 
 .line {
-	margin-top: 3.5rem;
 	width: 80%;
 	height: 1px;
 	background-color: #ffffff6b;
+}
+
+.main-line {
+	margin-top: 3.5rem;
 }
 
 .description-box {
@@ -281,11 +284,111 @@ main {
 
 /* 7 days forecast */
 
-.tommorow-container {
+/*
+.tomorrow-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: red solid 2px;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom, #00c6fb 0%, #005bea 100%);
+	width: 35rem;
+	height: 40%;
+	border-radius: 4rem;
+	color: #ffffff;
+}
+
+.top-label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.seven-days {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 26rem;
+}
+
+.seven-days p {
+	margin-left: 0.5rem;
+	font-size: 2rem;
+}
+
+.seven-days i {
+	font-size: 1.5rem;
+}
+
+.return-to-main {
+	width: 3rem;
+	height: 3rem;
+	padding: 0.5rem;
+	border-radius: 50%;
+	color: #ffffff;
+	background-color: inherit;
+	border: 1px solid #142232;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.return-to-main:hover {
+	background-color: #ffffff;
+	color: #000000;
+	border: none;
+}
+
+.week-container {
+	height: 56%;
+	width: 35rem;
+	border: 2px solid red;
+}
+
+.test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+	width: 100%;
+}
+
+.test-img {
+	width: 9rem;
+	height: 9rem;
+}
+
+.test-content {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+	margin-left: 4rem;
+	width: 15rem;
+	height: 12rem;
+}
+
+.test-img img {
 	width: 100%;
 	height: 100%;
 }
+
+.tommorow {
+	font-size: 1.5rem;
+}
+
+.tommorow-temperature {
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.tommorow-temperature span {
+	font-size: 3rem;
+	color: #ffffff6b;
+}
+
+.tommorow-description {
+	font-size: 1.2rem;
+	color: #ffffff6b;
+}
+*/
